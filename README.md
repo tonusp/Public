@@ -1,4 +1,4 @@
-# hello-world
+# Hello World!
 My first repository on Git-Hub
 
 So, you use Markdown to edit files in the repository, then save and it turns it into HTML?
