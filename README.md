@@ -1,16 +1,6 @@
 # Hello World!
-My first repository on Git-Hub
 
-So, you use Markdown to edit files in the repository, then save and it turns it into HTML?
+This repository represents my presence in the GitHub community. It's where I am planning to put Web kind of thingies that I want other people to be able to see, and sometimes, maybe, even to contribute to.
 
-## You can make headings
-
-And bulleted lists
-
-* one
-* two
-* three
-* four
-
->> And blockquote stuff.
+I don't know how that's going to work, or even *if* it will. But if you're interested, read on.
 
