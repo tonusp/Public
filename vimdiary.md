@@ -1,1 +1,0 @@
-/home/tony/Documents/textfiles/vimdiary.txt
