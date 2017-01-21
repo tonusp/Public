@@ -220,7 +220,7 @@ Spell check with Vim:
 Move to next / previous error with ]s / [s
 z=	suggest correct spelling
 zg	add word to spelling dictionary
-** See Practical Vim, chapter 20.
+## See Practical Vim, chapter 20.
 
 Copying and pasting:
 When using Vim from the Terminal, this works with CMD-V to paste from system clipboard; while to copy from Vim to system clipboard, you have to highlight text with the mouse, and then copy with CMD-C. This seems to be the only and best workaround so far, though I may find it confusing if my head is full of Vim's yank and put commands. Can't have everything!
@@ -617,4 +617,260 @@ It doesn't work: all you get pushed to GitHub is the details of the link, viz. /
 Add another new line of text, save and exit. And a little bit more.
 
 It looks as if I might have to have the .md file in this folder, and copy it over to ~/Public every time it needs updating? Will that work?
+
+It does work, but I'd like to find a way to automate it! Why doesn't it do what I think it ought to do?
+
+## Sat Jan 21 15:31:02 GMT 2017
+
+OK, I just made the mistake of opening vim to use the tutorial, then doing :tabe to edit another file, and found it had not executed my .vimrc file. 
+
+Here's the plan: I'm going to incorporate in this file my other 'computer diaries' and move the whole lot to my Public GitHub folder so that it can be edited there and updated from there.
+
+
+# Incorporating ThinkPad Diary 2016
+
+## Wed 06 Jan 2016 18:56:53 GMT
+
+ThinkPad X201 delivered, bought from [Edge Computers](http://www.edgeuk.net/).
+
+I looked at a couple of different distros to install (Trisquel, Fedora, Ubuntu) but settled on Linux Mint which I know best.
+
+Now trying to work out which programs and settings and packages or add-ons to install.
+
+## Thu 07 Jan 2016 19:11:16 GMT
+
+Working out how to use the docking station:
+https://support.lenovo.com/gb/en/documents/migr-70299
+http://www.jessebandersen.com/2012/03/lenovo-thinkpad-x201-tablet-thinkpad.html
+
+## Tue 12 Jan 2016 17:23:14 GMT
+
+Still having trouble working out how to point www.godspell.org.uk at
+tonusp.github.io
+HOW??
+
+Github password for tonusp
+dqqmFGlTm6
+
+
+Might find this useful?
+http://erjjones.github.io/
+
+## This is the best guidance for what should work?
+USE YOUR OWN DOMAIN LINK
+Configuring your domain name to point to GitHub Pages is a simple two-step process:
+Go to the root of your blog’s repository, and edit the CNAME file to include your domain name (for example, www.yourdomainname.com).
+Go to your domain name registrar, and add a CNAME DNS record pointing your domain to GitHub Pages:
+type: CNAME
+host: www.yourdomainname.com
+answer: yourusername.github.io
+TTL: 300
+Then, refresh What’s My DNS like crazy until you’ve propagated. If you run into any problems, refer to “Setting Up a Custom Domain With GitHub Pages.”
+
+
+----
+
+## Fri 15 Jan 2016 14:42:17 GMT
+
+[Taylor Marshall](http://taylormarshall.com/) was an Episcopal priest, now converted to Catholicism. A Thomist, and I suspect pretty conservative - lives in Dallas TX. Some of his website might be of interest?
+
+## Sunday January 17 2016 22:59
+
+Now installed Atom and trying it out instead of Sublime Text.
+
+## Tuesday January 19 2016 18:52
+
+Liking [Kris Shaffer](http://kris.shaffermusic.com/)'s websites, e.g.
+
+[Facebook no more](http://kris.shaffermusic.com//2015/10/facebook-no-more/)
+
+Maintaining control and ownership of your data, by using secure sites, encryption, etc.
+
+>  When I get some time, I'm going to try out [OwnCloud](https://owncloud.org/) — an encrypted and free (if you run it yourself) alternative to DropBox. I'm also looking into ways to minimize me Google usage — no more Google analytics on my website, Firefox instead of Chrome, DuckDuckGo instead of Google.com searches, and I'm going to test [TutaNota](https://tutanota.com/) for email — an end-to-end encrypted email service hosted in digital-privacy-friendly Germany.
+
+## Projects
+
+[Setting up my own server](http://www.webmonkey.com/2010/02/set_up_a_home_server/)
+<!--  -->
+
+## Friday January 29 2016 22:30
+
+Having to resort to Adobe   Reader on Windows 10 laptop to print a PDF file as a booklet. Is there a way to do that under Linux?
+
+Possibly here?
+
+[Laidout](http://laidout.org/)
+
+## Mon Feb  8 17:52:31 GMT 2016
+
+Learning about shaving!
+http://www.gentlemansgazette.com/shaving-cream-guide/
+
+## Thu Feb 11 14:16:29 GMT 2016
+
+A whole new world of shaving and grooming websites! A new hobby! So far I have tried the shaving cream and brush from [The Bearded Colonel](https://beardedcolonel.co.uk/), with their 5-blades. But now I see various articles suggesting that the old-fashioned double-edged blades are better, give less razor burn while still giving a close shave and are also considerably cheaper in the long term.
+
+e.g.
+[The benefits of traditional wet shaving](http://www.shaving101.com/index.php/education/double-edge-shaving/164-money-magazine-got-it-wrong.html)
+
+[Best double-edged razor blades](http://shavingemporium.co.uk/best-double-edge-razor-blades/)
+
+[Why traditional double-edge shaving is better than modern day shaving](http://www.shaving-shack.com/blog/why-traditional-double-edge-shaving-is-better-than-modern-day-shaving/)
+
+[Taylor of Old Bond Street 72 Jermyn Street](http://www.tayloroldbondst.co.uk/index.html)
+
+## Link to GitHub guide on GitHub Pages
+
+ GitHub Pages are public webpages hosted and easily published through GitHub. The quickest way to get up and running is by using the Automatic Page Generator to create some starter HTML and CSS for us. You can then modify our GitHub Pages' content and style remotely via the web or locally on our computer.
+
+[Getting started with GitHub Pages](https://guides.github.com/features/pages/)
+
+## Sun Feb 14 14:40:05 GMT 2016
+
+This: a [list of shaving blogs](http://sharpologist.com/shaving-blogs)
+
+Independent newspaper review of [10 best safety razors](http://www.independent.co.uk/extras/indybest/fashion-beauty/10-best-safety-razors-shaving-merkur-gilette-10111508.html)
+
+## Tue Feb 16 14:23:44 GMT 2016
+
+Changing to a virtual console - and back!
+CTRL+ALT+F1 to ? takes you to that virtual console.
+CTRL+ALT+F8 brings you back to the GUI
+
+## Wednesday February 24 2016
+
+[THIS NOTE RELATES TO ATOM TEXT EDITOR ONLY]
+Found out how to change the keybinding for Markdown-preview-toggle. It now works with shift-alt-M
+
+But, more to the point, I discovered that the reason the ctrl-shift-M keybinding wasn't working was that I had Emmet installed and there was a keybinding clash.
+
+Solution: uninstall Emmet. Everything working fine.
+
+     March 2016
+Su Mo Tu We Th Fr Sa
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30 31
+
+## Tue Mar  1 18:20:09 GMT 2016
+
+Exploring Laverna, supposedly an Evernote alternative.
+
+Looking at [leather-bound 1928 BCP]( https://global.oup.com/academic/product/the-1928-book-of-common-prayer-9780195285253?lang=en&cc=gb*)
+
+Ordered some shaving supplies and goodies from The Executive Shaving Company:
+Code Description Price Quantity
+ESC004997 Executive Shaving Company Razor and Brush Stand with Lathering Bowl £24.50 1 £24.50
+ESC007370 Safety Razor Leather Travel Case £15.50 1 £15.50
+ESC006377 Muhle Safety Razor Blade Guard £3.00 1 £3.00
+ESC004664 Personna Replacement Blades for Double Edge Safety Razors (x10) £3.50 1 £3.50
+ESC006398 Executive Shaving Intensive Moisturising Balm 100ml £12.50 1 £12.50
+ESC004139 Castle Forbes Lime Shaving Cream 200ml £22.50 1 £22.50
+Shipping £3.99
+Total £85
+
+## Sun Mar  6 13:50:23 GMT 2016
+
+The folder ~/quarantined is for files I have moved from elsewhere, but want to keep just in case they turn out to be essential.
+
+In this case google-chrome list contains this:
+\*\*\* THIS FILE IS AUTOMATICALLY CONFIGURED **
+\* You may comment out this entry, but any other modifications may be lost.
+deb http://dl.google.com/linux/chrome/deb/ stable main
+
+But Software Update Manager has been sending error messages that it has been unable to find or locate http://dl.google.com/linux/chrome/deb/ stable main
+
+Solved (I think) by moving the file google-chrome.list from /etc/apt I've put it in ~/quarantined
+
+## Thu Mar 10 10:34:25 GMT 2016
+
+How to draw a street map
+http://www.ehow.com/how_7699982_draw-street-map.html
+
+## Tue Mar 15 18:15:22 GMT 2016
+
+Problems this afternoon with the fonts on menu bars, appearing in strange combinations of colours, being illegible. I haven't found any way of correcting this, other than restarting the computer.
+
+This afternoon it happened after I had opened Chromium. Is it something to do with different rendering of things by Google/Chrome/Chromium?
+
+Trying out the gf command. In NORMAL mode, when the cursor is over the name of a file, <gf> goes to that file. e.g.
+goodfriday.txt
+You can return to the previous position with C-O.
+
+## Thu Mar 17 16:51:52 GMT 2016
+
+Just been reminded of the 'abbreviation' setting - see :h abbr
+You can also use these as auto-correct or auto-expand codes
+
+## Large movements:
+C-U	scroll Up half a screen
+C-D	scroll Down half a screen
+C-F	move Forward one screen
+C-B	move Back a screen
+
+Really don't know how I've forgotten these! The books (inc. Practical Vim) don't mention them much.
+
+## Wed Mar 23 11:48:42 GMT 2016
+
+More on digraphs: a right tick is
+√ C-K RT
+
+## Thu Mar 24 19:19:49 GMT 2016
+
+## Hiccups
+
+The trouble with unremitting hiccups is that hiccups are inherently comical or ridIculous. Anyone who hears what's wrong with you is more likely to smile, or find it something to laugh about, before they begin to feel much sympathy. But unremitting hiccups are, in truth, no laughing matter. If they are really unremitting, it means that you may be hiccupping as often as every two seconds, for every waking hour. And, since it's hard to sleep when you have hiccups this frequent and violent, those could be a lot of waking hours.
+
+## Sat Mar 26 12:06:28 GMT 2016
+
+Screenshot
+In spite of there being a key on the keyboard with PrtSc on it (don't know what it does, then!) the way to take a screenshot in Linux Mint is with Mint menu > Accessories > Take screenshot.
+
+## Sun Apr  3 09:45:46 BST 2016
+
+On the mend after the horrible shingles. Much better but still not feeling 100%.
+
+Still enjoying the wet shaving experience and exploration...
+
+This on [How many shaves can you get from a DE blade?](http://www.shaving101.com/index.php/shaving-faqs/83-how-many-shaves-can-you-get-from-a-de-blade.html)
+
+How many shaves can you get from a DE blade?
+Matthew, Owensville, MO
+
+> Unfortunately there is no definitive answer on how many shaves you can get from a double-edged blade. Each brand of blade varies somewhat in sharpness and edge durability, and each person's hair growth varies in density and coarseness. I usually use a blade for 3 shaves before I toss it into the blade bank and load a new blade into my razor because (1) I keep several packs on hand, and (2) I want to ensure that my blade is very sharp every time. Popular blades, such as Feather and BIC, generally perform very well and can give the average person 5-7 shaves with each blade. Some men can use the same blade even longer if they don't have coarse beards that can wear the blade edge down quickly, or if they want to really stretch their dollar. Several retailers offer multipacks or blade samplers that can offer you an assortment of blades to see how different brands affect your shave. No matter which blade you choose, you'll still find the DE blades to be much more economical than cartridge razors. Learn more in Choosing the Right Blade.
+
+Postscript: Brian from Executive Shaving says most blades will give you from 4 to 6 close shaves. Once they start tugging you should change blades.
+
+## Tuesday April 05 2016
+
+Trying Atom again. It advertises itself as a Text Editor for the 21st Century, so I would expect it to be easier and more useful than Vim. Perhaps?
+
+Some users complain it is slow to start up, compared with Sublime Text, and tends to crash on large files.
+
+Also having installed Simplenote yesterday. The Linux application has support for Markdown and its own built-in browser. Not sure what sort of browser it is.
+
+## Wednesday April 06 2016
+
+Think about [Springseed](http://getspringseed.com/) note-taking app. ?
+
+## Friday April 08 2016
+
+Government take on EU referendum: [why the Government believes we should stay in](https://www.eureferendum.gov.uk/).
+
+## Wednesday December 07 2016
+
+Not sure why I stopped maintaining this Thinkpad Diary. Now I'm retired, I'll try and keep it going  again.
+
+## <2016-12-08 Thu>
+  
+## Links for our 2016 Christmas Letter
+
+https://dl.dropboxusercontent.com/u/9213103/ChristmasLetter2016.odt  
+shortens to:  
+http://bit.ly/2h6fQXF
+
+## Computer
+Trying [[http://tiddlywiki.com/]]][Tiddly Wiki]]
 
