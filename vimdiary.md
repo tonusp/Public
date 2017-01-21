@@ -649,9 +649,6 @@ Still having trouble working out how to point www.godspell.org.uk at
 tonusp.github.io
 HOW??
 
-Github password for tonusp
-dqqmFGlTm6
-
 
 Might find this useful?
 http://erjjones.github.io/
